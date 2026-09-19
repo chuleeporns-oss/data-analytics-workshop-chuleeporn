@@ -1,0 +1,9 @@
+issue_type,field_row,evidence,decision,reason
+Category consistency,"Region, row 5",south,Standardized to South,Case and surrounding spaces represented the same region.
+Category consistency,"Region, row 19", SOUTH ,Standardized to South,Case and surrounding spaces represented the same region.
+Category consistency,"Category, row 24",Electronic,Standardized to Electronics,Product P-A is consistently categorized as Home elsewhere.
+Missing value,"Sales, row 33",blank,Flagged; not imputed,Sales cannot be derived defensibly from the available fields.
+Missing value,"Profit, row 34",blank,Flagged; not imputed,Profit is not filled without an approved imputation rule.
+Impossible value,"Discount, row 57",2.5,Flagged; not changed,The intended correction (for example 0.25) is not confirmed.
+Impossible value,"Quantity, row 79",-2,Flagged; not changed,"It may represent a return, but no return rule is defined."
+Duplicate,row 262,Exact duplicate of an earlier row,Removed from working copy,The duplicate has identical values in every field.
